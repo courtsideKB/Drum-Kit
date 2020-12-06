@@ -1,0 +1,20 @@
+/************************************************TAG SELECTORS************************************************/
+
+body {
+    background-color: #30475e;
+    color: #e8e8e8;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 5rem;
+    text-shadow: 3px 0 #f05454;
+}
+
+/************************************************CLASS SELECTORS************************************************/
+
+.drum {
+    size: 5rem;
+    color: #f05454;
+    text-shadow: #e8e8e8
+}
