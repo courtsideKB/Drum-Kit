@@ -36,3 +36,47 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 3px 0 #dbdbdb;
 
 }
+
+/* Drum Images */
+
+.w {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/tom1.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.a {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/tom2.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.s {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/tom3.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.d {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/tom4.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.j {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/snare.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.k {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/crash.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
+
+.l {
+    background: url("/Users/kb/Desktop/Web Development/Drum Kit/images/kick.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #e8e8e8;
+}
