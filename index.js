@@ -6,11 +6,15 @@ document.querySelectorAll(".drum").forEach(drumSetPiece => {
 
         makeSound(buttonInnerHtml);
 
+        buttonAnimation(buttonInnerHtml);
+
 
         /* Keyboard Press  */
 
         document.addEventListener("keydown", event => {
             makeSound(event.key);
+
+            buttonAnimation(event.key);
         });
 
         function makeSound(key) {
@@ -54,6 +58,16 @@ document.querySelectorAll(".drum").forEach(drumSetPiece => {
                 default:
                     console.log(buttonInnerHtml);
             }
+        }
+        function buttonAnimation(currentKey) {
+
+            var activeButton = document.querySelector("." + currentKey);
+
+            activeButton.classList.add("pressed");
+
+            setTimeout(function () {
+                activeButton.classList.remove("pressed");
+            }, 100);
         }
     });
 });
